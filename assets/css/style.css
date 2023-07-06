@@ -461,6 +461,38 @@ section {
   font-size: large;
 }
 
+.section-title ul li p{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section-title ul li i.bi-dot{
+  display: none;
+}
+
+.section-title ul li:hover i.bi-dot{
+  display: inline-block;
+  height: 20px;
+  width: 21px;
+}
+
+.section-title ul li:hover p::after{
+  width: 80%;
+}
+
+.section-title ul li p:after{
+  content: "";
+  background-color: #0dcaf0;
+  width: 0%;
+  height: 3px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 4;
+  bottom: -5px;
+  left: 0px;
+  transition: 0.4s ease-in-out;
+}
 
 /*--------------------------------------------------------------
 # Resume
