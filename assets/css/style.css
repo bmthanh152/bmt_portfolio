@@ -27,6 +27,10 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+i{
+  margin-right: 7px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -418,6 +422,67 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+
+/* Tab Links */
+.tabs{
+  display:flex;
+}
+.tablinks {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 1rem;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight:600;
+  transition: 0.2s ease;
+}
+.tablinks:hover{
+  background: #149ddd;
+  color:#fff;
+}
+/* Tab active */
+.tablinks.active {
+   background: #149ddd;
+   color:#fff;
+}
+
+/* tab content */
+.tabcontent {
+  display: none;
+}
+
+.container-skill{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10% 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skills-box{
+  background-color: #b0b5b6;
+  width: 254px;
+  color: #000;
+  box-shadow: 2px 3px 3px #ccc;
+  text-align: center;
+  padding: 23px;
+  margin: 20px;
+}
+
+.skills-box:hover{
+  color: #fff;
+  background-color: #149ddd;
+  transform: translateY(-3px) scale(1.2);
+  font-size:16px;
+}
+/* tab content active */
+.tabcontent.active {
+  display: block;
+}
+
+
 .skills .progress {
   height: 60px;
   display: block;
