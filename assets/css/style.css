@@ -659,13 +659,15 @@ section {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.portfolio .portfolio-wrap,.certificate .certificate-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   height: 200px;
 }
+
+
 
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -791,6 +793,31 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Certificate Details
+--------------------------------------------------------------*/
+.certificate-wrap a::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cabebed4;
+  opacity: 0.7;
+  content: "";
+  width: 0%;
+  z-index: 4;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.certificate-wrap{
+  position: relative;
+}
+
+.certificate-wrap:hover a::after{
+  display: block;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------

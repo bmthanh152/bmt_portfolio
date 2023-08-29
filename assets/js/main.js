@@ -190,6 +190,13 @@
     selector: '.portfolio-lightbox'
   });
 
+    /**
+   * Initiate certificate lightbox 
+   */
+    const certificateLightbox = GLightbox({
+      selector: '.certificate-lightbox'
+    });
+
   /**
    * Portfolio details slider
    */
