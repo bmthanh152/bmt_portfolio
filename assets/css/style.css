@@ -810,6 +810,19 @@ section {
   height: 100%;
   transition: 0.5s ease-in-out;
 }
+.certificate-item:nth-child(1) .certificate-wrap a::after{
+  background-image: url(../img/htmlcss.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.certificate-item:nth-child(2) .certificate-wrap a::after{
+  background-image: url(../img/javascript-2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .certificate-wrap{
   position: relative;
@@ -818,6 +831,11 @@ section {
 .certificate-wrap:hover a::after{
   display: block;
   width: 100%;
+
+}
+
+.certificate-wrap:hover .certificate-content{
+  display: block;
 }
 
 /*--------------------------------------------------------------
