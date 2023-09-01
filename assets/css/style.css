@@ -458,7 +458,7 @@ section {
   flex-wrap: wrap;
   margin: 10% 0;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .skills-box{
