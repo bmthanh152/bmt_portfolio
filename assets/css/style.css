@@ -27,7 +27,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.skills-box i{
+.skills-box i, .skills-box iconify-icon{
   margin-right: 7px;
 }
 
