@@ -33,6 +33,7 @@ const projects = [
     },
 ]
 
+
 function render() {
     const htmls = projects.map(project => {
         return `<div class="col-lg-4 col-md-6 portfolio-item filter-${project.status}" >
