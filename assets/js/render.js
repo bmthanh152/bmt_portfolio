@@ -4,14 +4,14 @@ const projects = [
     {
         githubLink: 'https://github.com/bmthanh152/twotown',
         imgBgProject: 'assets/img/portfolio/twotownbg.png',
-        imgProject: 'assets/img/portfolio/twotown.png',
+        imgProject: 'assets/img/portfolio/twotownbg.png',
         linkDemo: 'http://twotown.infinityfreeapp.com/',
         status: 'project'
     },
     {
         githubLink: 'https://github.com/bmthanh152/xemphimhd',
         imgBgProject: 'assets/img/portfolio/xemphimhdbg.png',
-        imgProject: 'assets/img/portfolio/xemphimhd.png',
+        imgProject: 'assets/img/portfolio/xemphimhdbg.png',
         status: 'team'
     },
     {
@@ -23,7 +23,7 @@ const projects = [
     {
         githubLink: 'https://github.com/bmthanh152/quanlythuvien',
         imgBgProject: 'assets/img/portfolio/quanlybansach-bg.png',
-        imgProject: 'assets/img/portfolio/quanlybansach.png',
+        imgProject: 'assets/img/portfolio/quanlybansach-bg.png',
         status: 'team'
     },
     {
